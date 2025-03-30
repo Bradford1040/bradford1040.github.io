@@ -4,8 +4,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const repositories = [
         { name: 'Punisher', url: 'https://github.com/Bradford1040/PUNISHER' },
         { name: 'Kane', url: 'https://github.com/Bradford1040/KANE' },
-        { name: 'Able', url: 'hhttps://github.com/Bradford1040/ABLE' },
-        { name: 'Ben10', url: 'hhttps://github.com/Bradford1040/BEN10' },
+        { name: 'Able', url: 'https://github.com/Bradford1040/ABLE' },
+        { name: 'Ben10', url: 'https://github.com/Bradford1040/BEN10' },
         { name: 'Repo 5', url: 'https://github.com/yourusername/repo5' }
     ];
 
