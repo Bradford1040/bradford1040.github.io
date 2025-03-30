@@ -1,7 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('DOM fully loaded and parsed');
     const repositoriesSection = document.getElementById('repositories');
-    console.log('Repositories section:', repositoriesSection);
 
     const repositories = [
         { name: 'Punisher', url: 'https://github.com/Bradford1040/PUNISHER' },
@@ -12,7 +10,6 @@ document.addEventListener('DOMContentLoaded', () => {
     ];
 
     repositories.forEach(repo => {
-        console.log('Adding repo:', repo);
         const repoDiv = document.createElement('div');
         repoDiv.classList.add('repository');
 
