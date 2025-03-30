@@ -2,10 +2,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const repositoriesSection = document.getElementById('repositories');
 
     const repositories = [
-        { name: 'Repo 1', url: 'https://github.com/yourusername/repo1' },
-        { name: 'Repo 2', url: 'https://github.com/yourusername/repo2' },
-        { name: 'Repo 3', url: 'https://github.com/yourusername/repo3' },
-        { name: 'Repo 4', url: 'https://github.com/yourusername/repo4' },
+        { name: 'Punisher', url: 'https://github.com/Bradford1040/PUNISHER' },
+        { name: 'Kane', url: 'https://github.com/Bradford1040/KANE' },
+        { name: 'Able', url: 'hhttps://github.com/Bradford1040/ABLE' },
+        { name: 'Ben10', url: 'hhttps://github.com/Bradford1040/BEN10' },
         { name: 'Repo 5', url: 'https://github.com/yourusername/repo5' }
     ];
 
