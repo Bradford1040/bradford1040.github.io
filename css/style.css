@@ -1,36 +1,80 @@
-/* Add dark background and text styles */
 body {
-    background-color: #121212; /* Dark background */
-    color: #ffffff; /* Light text for contrast */
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif; /* A common, readable font */
+    line-height: 1.6;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4; /* Light grey background */
+    color: #333; /* Dark grey text for readability */
 }
 
-header, footer {
-    background-color: #1e1e1e; /* Slightly lighter dark for header and footer */
-    padding: 20px;
+header {
+    background: #333; /* Dark background for header */
+    color: #fff; /* White text on dark background */
+    padding: 1.5rem 0;
     text-align: center;
+    border-bottom: 3px solid #007bff; /* Accent color border */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 0.25rem;
+}
+
+main {
+    max-width: 800px; /* Limits width for better readability on wide screens */
+    margin: 30px auto; /* Centers the content */
+    padding: 0 20px; /* Some padding on the sides */
+}
+
+section {
+    background: #fff; /* White background for content sections */
+    margin-bottom: 25px;
+    padding: 25px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #007bff; /* Accent color underline */
+    padding-bottom: 10px;
+    margin-top: 0; /* Remove default top margin for h2 inside section */
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #555;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
 }
 
 a {
-    color: #1e90ff; /* Bright blue for links */
+    color: #007bff; /* Standard link blue */
     text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Underline on hover for clarity */
 }
 
-section {
+footer {
+    text-align: center;
     padding: 20px;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
-    margin: 10px 0;
+    background: #333;
+    color: #fff;
+    margin-top: 40px;
 }
