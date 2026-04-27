@@ -1,0 +1,50 @@
+# top-most EditorConfig file
+root = true
+
+# Global Defaults (The "Safe" Baseline)
+[*]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# Python (Strict PEP 8 standards)
+[*.py]
+indent_style = space
+indent_size = 4
+max_line_length = 120
+
+# Web & Data Formats
+[*.{js,json,yml,yaml,sh,bash}]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+
+# Windows Specific Scripts/Files
+[{*.bat,*.cmd,*.ps1,*.xml}]
+end_of_line = crlf
+
+# Configuration & Ini Files (The "Gold" Standard)
+[*.{ini,cfg,conf}]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+
+# Documentation (Preserve double-space line breaks)
+[*.md]
+trim_trailing_whitespace = false
+end_of_line = lf
+
+# Tab-Strict Files (Makefiles MUST have tabs)
+[Makefile]
+indent_style = tab
+
+# Specialty/Safety Overrides
+[**.min.js]
+indent_style = ignore
+insert_final_newline = ignore
+
+[*.json]
+insert_final_newline = ignore
